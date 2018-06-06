@@ -4,8 +4,12 @@ recommended course: "[How To Use Git And GitHub][link_to_course]."
 >
 The shell script is my contribution for automating new environment setup.
 
-# This is how your prompt will changes
-![boring old prompt](https://github.com/ChrisAshton/git_environment_configs/blob/master/boring_prompt.png)
+## This is how your prompt will change
+From this  
+![boring old prompt](https://github.com/ChrisAshton/git_environment_configs/raw/master/boring_old_prompt.png)  
+
+To this  
+![sweet new prompt](https://github.com/ChrisAshton/git_environment_configs/raw/master/sweet_new_prompt.png)
 
 # Directions for Mac and Linux users
 <ol>

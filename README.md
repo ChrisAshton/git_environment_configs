@@ -16,24 +16,24 @@ To this
   <li>
 
     Clone this repository anywhere in your filesystem<br>
-    ```
+    ```bash
     git clone https://github.com/ChrisAshton/git_environment_configs.git
     ```
 
   </li>
   <li>Navigate to the directory<br>
-    ```
+    ```bash
     cd git_environment_configs
     ```
   </li>
   <li>You might need to give the setup.sh file permission to run on your machine<br>
-    ```
+    ```bash
     chmod 755 setup.sh
     ```
   </li>
   <li>Now run the shell script and restart your terminal<br>
-    ```
-    sh setup.sh
+    ```bash
+    bash setup.sh
     ```
   </li>
 </ol>

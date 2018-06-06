@@ -13,9 +13,7 @@ To this
 
 # Directions for Mac and Linux users
 <ol>
-  <li>
-
-    Clone this repository anywhere in your filesystem<br>
+  <li>Clone this repository anywhere in your filesystem<br>
     <code>
     git clone https://github.com/ChrisAshton/git_environment_configs.git
     </code>

@@ -1,7 +1,11 @@
 ## Configs to quickly set up a nice git environment in Mac and Linux  
-> The config files are courtesy of udacity.com and can be found in their  
-"[How To Use Git And GitHub][link_to_course]" course. I just made the shell script to automate  
-the process of setting up new environments, which I seem to do often.
+> The config files are courtesy of udacity.com and can be found in their highly  
+recommended course: "[How To Use Git And GitHub][link_to_course]."  
+>
+The shell script is my contribution for automating new environment setup.
+
+# This is how your prompt will changes
+![boring old prompt](https://github.com/ChrisAshton/git_environment_configs/blob/master/boring_prompt.png)
 
 # Directions for Mac and Linux users
 <ol>

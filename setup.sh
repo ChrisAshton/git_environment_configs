@@ -1,8 +1,9 @@
 #!/bin/bash
 printf "
                           ***
-This script will change your bash_profile or bashrc environment and
-restart your bash shell.
+This script will make your bash environment a wonderful place to use Git
+and it will change your life forever. But be warned: there's no script for
+reversing the changes yet.
 "
 
 function change_bashrc {

@@ -72,6 +72,7 @@ function ask_first {
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     printf "Loading git configs \n\n"
     CONTINUE=1
+    return
   fi
 
   printf "please start this script when you are ready\n\n"

@@ -14,7 +14,7 @@ function change_bashrc {
     sleep 1
     printf "exiting\n\n"
     sleep 1
-    exit 1
+    return
   fi
   cp git* ~/
   printf "modifying .bashrc file\n\n"
@@ -34,7 +34,7 @@ function change_bash_profile {
     sleep 1
     printf "exiting\n\n"
     sleep 1
-    exit 1
+    return
   fi
   cp git* ~/
   printf "modifying .bash_profile\n\n"
@@ -75,7 +75,7 @@ function ask_first {
     sleep 1
     printf "exiting \n\n"
     sleep 1
-    exit 1
+    return
   fi
 }
 

@@ -58,7 +58,7 @@ function test_for_file {
     change_bashrc
   fi
 
-  if ![ -e ~/.bashrc ] && ![ -e ~/.bash_profile ]; then
+  if ! [ -e ~/.bashrc ] && ! [ -e ~/.bash_profile ]; then
     printf "you have no bash_profile or bashrc"
     touch ~/.bash_profile
     change_bash_profile

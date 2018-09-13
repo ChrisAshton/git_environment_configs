@@ -6,6 +6,8 @@ and it will change your life forever. But be warned: there's no script for
 reversing the changes yet.
 "
 
+CONTINUE=0
+
 function change_bashrc {
   printf "copying git-completion.bash and git-prompt.sh into home folder \n\n"
   sleep 1
@@ -67,16 +69,16 @@ function test_for_file {
 
 function ask_first {
   read -p "Would you like to continue (y) or (n): " REPLY
-  if [[ $REPLY =~ ^[Yy]$ ]]
-  then
+  if [[ $REPLY =~ ^[Yy]$ ]]; then
     printf "Loading git configs \n\n"
-  else
-    printf "please start this script when you are ready\n\n"
-    sleep 1
-    printf "exiting \n\n"
-    sleep 1
-    return
+    CONTINUE=1
   fi
+
+  printf "please start this script when you are ready\n\n"
+  sleep 1
+  printf "exiting \n\n"
+  sleep 1
+  CONTINUE=-1
 }
 
 function moveGitFiles() {
@@ -84,6 +86,12 @@ function moveGitFiles() {
     cp .git-prompt.sh ~/
 }
 
+
 ask_first
+
+if [[ $CONTINUE < 0 ]]; then
+  return
+fi
+
 test_for_file
 moveGitFiles
